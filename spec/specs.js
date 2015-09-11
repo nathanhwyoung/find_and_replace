@@ -12,4 +12,8 @@ describe('findAndReplace', function() {
         expect(findAndReplace("thank you very much", "thank you", "stink meow")).to.equal("stink meow very much");
     });
 
+    it("replaces multiple instances", function() {
+        expect(findAndReplace("thank thank thank", "thank", "no thank")).to.equal("no thank no thank no thank");
+    });
+
 });

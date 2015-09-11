@@ -1,6 +1,6 @@
 var findAndReplace = function(sampleInput, findString, replaceString) {
-    debugger;
-    return sampleInput.replace(findString, replaceString);
+    // debugger;
+    return sampleInput.replace(new RegExp('\\b'+findString+'\\b', 'gi'),replaceString);
 };
 
 
