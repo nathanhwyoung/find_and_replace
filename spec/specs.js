@@ -1,10 +1,15 @@
-describe('countUpBy', function() {
-    it("counts to 10 by 1", function() {
-        expect(countUpBy("10", "1")).to.equal("0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10");
+describe('findAndReplace', function() {
+
+    it("replaces simple letters", function() {
+        expect(findAndReplace("a b c", "b", "d")).to.equal("a d c");
     });
 
-    it("counts to 50 by 8", function() {
-        expect(countUpBy("50", "8")).to.equal("0, 8, 16, 24, 32, 40, 48");
+    it("replaces words", function() {
+        expect(findAndReplace("thank you very much", "thank", "stink")).to.equal("stink you very much");
     });
-    
+
+    it("replaces multiple words", function() {
+        expect(findAndReplace("thank you very much", "thank you", "stink meow")).to.equal("stink meow very much");
+    });
+
 });

@@ -1,12 +1,12 @@
 # Find and Replace
 
-##### A web page that identifies if a word, phrase, number, or other sequence of characters is a palindrome. (9/9/15)
+##### A simple Find & Replace word application
 
-#### By Logan Wu & Nathan Young
+#### By Nathan Young
 
 ## Description
 
-A palindrome is any word, phrase, number, or other sequence of characters which reads the same backward or forward.
+An application that receives three inputs: text to search, text to search for, and text to replace the searched-for text.
 
 ## Specs
 
@@ -23,7 +23,7 @@ HTML, CSS, JavaScript, jQuery, Mocha and Chai for testing
 
 ### Legal
 
-Copyright (c) 2015 **Logan Wu & Nathan Young**
+Copyright (c) 2015 **Nathan Young**
 
 This software is licensed under the MIT license.
 
