@@ -10,8 +10,10 @@ An application that receives three inputs: text to search, text to search for, a
 
 ## Specs
 
-* Returns true if the input reads the same forward as backward.
-* Returns false if the input does not read the same forward as backward.
+* replaces simple letters
+* replaces words
+* replaces multiple words
+* replaces multiple instances
 
 ## Setup
 
