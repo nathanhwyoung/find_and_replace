@@ -1,16 +1,17 @@
 var findAndReplace = function(sampleInput, findString, replaceString) {
-    // debugger;
-
-
+    debugger;
+    return sampleInput.replace(findString, replaceString);
 };
 
 
 $(document).ready(function()  {
 
-    $("form#countupby").submit(function(event) {
-        var endNumber = ($("input#endNumber").val());
-        var incrementer = ($("input#incrementer").val());
-        var result = countUpBy(endNumber, incrementer);
+    $("form#findandreplace").submit(function(event) {
+        var sampleInput = ($("input#sampleInput").val());
+        var findString = ($("input#findString").val());
+        var replaceString = ($("input#replaceString").val());
+
+        var result = findAndReplace(sampleInput, findString, replaceString);
 
         $(".output").text(result);
 
