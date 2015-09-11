@@ -1,16 +1,7 @@
-var countUpBy = function(endNumber, incrementer) {
+var findAndReplace = function(sampleInput, findString, replaceString) {
     // debugger;
 
-    var endInt = parseInt(endNumber);
-    var incrementInt = parseInt(incrementer);
-    var array = [];
 
-    for (var i = 0; i <= endInt; i += incrementInt) {
-        // returnString += i.toString() + ", ";
-        array.push(i);
-    }
-    var returnString = array.join(', ');
-    return returnString;
 };
 
 
