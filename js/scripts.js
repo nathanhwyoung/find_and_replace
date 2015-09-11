@@ -1,5 +1,6 @@
 var findAndReplace = function(sampleInput, findString, replaceString) {
     // debugger;
+    // uses a regular expression object to find and replace all instances
     return sampleInput.replace(new RegExp('\\b'+findString+'\\b', 'gi'),replaceString);
 };
 
